@@ -1,0 +1,25 @@
+{
+    "name": "gerenciador",
+    "version": "1.0.0",
+    "description": "Uma aplicação simples de gerenciamento de tarefas",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.17.1",
+        "helmet": "^8.0.0",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.11.3",
+        "redis": "^3.1.2",
+        "sequelize": "^6.37.4",
+        "xss-clean": "^0.1.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "author": "Gabrielle Victoria",
+    "license": "MIT"
+}
